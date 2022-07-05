@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Lab3Task3 {
 
-    public static int search(int data[], n) {
+    public static int search(int data[], int n) {
         int x = data.length;
         for (int i = 0; i < x ; i++) {
             if (data[i] == n )
@@ -16,7 +16,7 @@ public class Lab3Task3 {
         Scanner sc = new Scanner(System.in);
         System.out.print("number: ");
         int n = sc.nextInt();
-        System.out.println("the position is: ", search(data, n));
+        System.out.println("the position is: " + search(data, n));
     }
 
 }
